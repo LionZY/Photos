@@ -30,7 +30,7 @@
 - (void)testExample {
     XCUIElement *entryElement = self.app.buttons[@"Entry"];
     [entryElement tap];
-    
+        
     //TODO: test table scroll performance
 }
 

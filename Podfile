@@ -12,7 +12,9 @@ target 'Photos' do
   pod 'JLRoutes', '2.1'
   pod 'SDWebImage', '5.11.1'
   pod 'YYModel', '1.0.4'
+  pod 'MBProgressHUD', '1.2.0'
   pod 'SVProgressHUD', '2.2.5'
+  pod 'YYText', '1.0.7'
 end
 
 target 'PhotosTests' do
@@ -25,5 +27,7 @@ target 'PhotosUITests' do
   pod 'JLRoutes', '2.1'
   pod 'SDWebImage', '5.11.1'
   pod 'YYModel', '1.0.4'
+  pod 'MBProgressHUD', '1.2.0'
   pod 'SVProgressHUD', '2.2.5'
+  pod 'YYText', '1.0.7'
 end

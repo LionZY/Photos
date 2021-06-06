@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PhotosListViewCell : UITableViewCell
 - (void)loadData:(Photo *)photo;
+- (void)loadImage:(Photo *)photo;
+- (void)loadImage:(Photo *)photo inRect:(CGRect)inRect inFrame:(CGRect)inFrame;
 @end
 
 NS_ASSUME_NONNULL_END
